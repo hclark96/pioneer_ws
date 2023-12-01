@@ -1,0 +1,41 @@
+[8.364s] Invoking command in '/home/pioneer-ii/pioneer_ws/src/locomotion_core': PYTHONPATH=/home/pioneer-ii/pioneer_ws/src/build/locomotion_core/prefix_override:/home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/locomotion_core build --build-base /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build install --record /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/install.log --single-version-externally-managed
+[8.898s] running egg_info
+[8.899s] creating ../build/locomotion_core/locomotion_core.egg-info
+[8.900s] writing ../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+[8.900s] writing dependency_links to ../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+[8.901s] writing entry points to ../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+[8.901s] writing requirements to ../build/locomotion_core/locomotion_core.egg-info/requires.txt
+[8.901s] writing top-level names to ../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+[8.965s] writing manifest file '../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[9.038s] reading manifest file '../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[9.040s] writing manifest file '../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[9.040s] running build
+[9.040s] running build_py
+[9.040s] creating /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build
+[9.041s] creating /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib
+[9.041s] creating /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib/locomotion_core
+[9.042s] copying locomotion_core/__init__.py -> /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib/locomotion_core
+[9.042s] copying locomotion_core/movebase_kinematics.py -> /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib/locomotion_core
+[9.043s] copying locomotion_core/cmd_roboteq.py -> /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib/locomotion_core
+[9.043s] running install
+[9.045s] running install_lib
+[9.049s] creating /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[9.049s] copying /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[9.050s] copying /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib/locomotion_core/movebase_kinematics.py -> /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[9.050s] copying /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq.py -> /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+[9.051s] byte-compiling /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/__init__.py to __init__.cpython-38.pyc
+[9.064s] byte-compiling /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/movebase_kinematics.py to movebase_kinematics.cpython-38.pyc
+[9.081s] byte-compiling /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc
+[9.082s] running install_data
+[9.083s] creating /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/share/ament_index
+[9.084s] creating /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/share/ament_index/resource_index
+[9.084s] creating /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/share/ament_index/resource_index/packages
+[9.084s] copying resource/locomotion_core -> /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/share/ament_index/resource_index/packages
+[9.084s] copying package.xml -> /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/share/locomotion_core
+[9.084s] running install_egg_info
+[9.087s] Copying ../build/locomotion_core/locomotion_core.egg-info to /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info
+[9.088s] running install_scripts
+[9.120s] Installing cmd_roboteq script to /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/locomotion_core
+[9.120s] Installing movebase_kinematics script to /home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/locomotion_core
+[9.122s] writing list of installed files to '/home/pioneer-ii/pioneer_ws/src/build/locomotion_core/install.log'
+[9.860s] Invoked command in '/home/pioneer-ii/pioneer_ws/src/locomotion_core' returned '0': PYTHONPATH=/home/pioneer-ii/pioneer_ws/src/build/locomotion_core/prefix_override:/home/pioneer-ii/pioneer_ws/src/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/locomotion_core build --build-base /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/build install --record /home/pioneer-ii/pioneer_ws/src/build/locomotion_core/install.log --single-version-externally-managed

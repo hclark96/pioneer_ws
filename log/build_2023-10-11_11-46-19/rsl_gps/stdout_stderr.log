@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rsl_gps/rsl_gps.egg-info
+writing ../../build/rsl_gps/rsl_gps.egg-info/PKG-INFO
+writing dependency_links to ../../build/rsl_gps/rsl_gps.egg-info/dependency_links.txt
+writing entry points to ../../build/rsl_gps/rsl_gps.egg-info/entry_points.txt
+writing requirements to ../../build/rsl_gps/rsl_gps.egg-info/requires.txt
+writing top-level names to ../../build/rsl_gps/rsl_gps.egg-info/top_level.txt
+writing manifest file '../../build/rsl_gps/rsl_gps.egg-info/SOURCES.txt'
+reading manifest file '../../build/rsl_gps/rsl_gps.egg-info/SOURCES.txt'
+writing manifest file '../../build/rsl_gps/rsl_gps.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pioneer-ii/pioneer_ws/build/rsl_gps/build
+creating /home/pioneer-ii/pioneer_ws/build/rsl_gps/build/lib
+creating /home/pioneer-ii/pioneer_ws/build/rsl_gps/build/lib/rsl_gps
+copying rsl_gps/usb_gps_node.py -> /home/pioneer-ii/pioneer_ws/build/rsl_gps/build/lib/rsl_gps
+copying rsl_gps/__init__.py -> /home/pioneer-ii/pioneer_ws/build/rsl_gps/build/lib/rsl_gps
+running install
+running install_lib
+creating /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps
+copying /home/pioneer-ii/pioneer_ws/build/rsl_gps/build/lib/rsl_gps/usb_gps_node.py -> /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps
+copying /home/pioneer-ii/pioneer_ws/build/rsl_gps/build/lib/rsl_gps/__init__.py -> /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps
+byte-compiling /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps/usb_gps_node.py to usb_gps_node.cpython-38.pyc
+byte-compiling /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/pioneer-ii/pioneer_ws/install/rsl_gps/share/ament_index
+creating /home/pioneer-ii/pioneer_ws/install/rsl_gps/share/ament_index/resource_index
+creating /home/pioneer-ii/pioneer_ws/install/rsl_gps/share/ament_index/resource_index/packages
+copying resource/rsl_gps -> /home/pioneer-ii/pioneer_ws/install/rsl_gps/share/ament_index/resource_index/packages
+copying package.xml -> /home/pioneer-ii/pioneer_ws/install/rsl_gps/share/rsl_gps
+running install_egg_info
+Copying ../../build/rsl_gps/rsl_gps.egg-info to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps-0.0.0-py3.8.egg-info
+running install_scripts
+Installing run_gps script to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/rsl_gps
+writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rsl_gps/install.log'

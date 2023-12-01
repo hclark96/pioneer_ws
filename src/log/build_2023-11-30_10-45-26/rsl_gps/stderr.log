@@ -1,0 +1,5 @@
+  File "/home/pioneer-ii/pioneer_ws/src/install/rsl_gps/lib/python3.8/site-packages/rsl_gps/quat_publisher.py", line 16
+    last_val = 0xFFFFimport rclpy
+                     ^
+SyntaxError: invalid syntax
+

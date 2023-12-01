@@ -1,0 +1,33 @@
+[7.770s] Invoking command in '/home/pioneer-ii/pioneer_ws/src/navigation_core': PYTHONPATH=/home/pioneer-ii/pioneer_ws/src/build/navigation_core/prefix_override:/home/pioneer-ii/pioneer_ws/src/install/navigation_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/navigation_core build --build-base /home/pioneer-ii/pioneer_ws/src/build/navigation_core/build install --record /home/pioneer-ii/pioneer_ws/src/build/navigation_core/install.log --install-scripts $base/lib/navigation_core --single-version-externally-managed
+[8.465s] running egg_info
+[8.465s] creating ../build/navigation_core/navigation_core.egg-info
+[8.465s] writing ../build/navigation_core/navigation_core.egg-info/PKG-INFO
+[8.465s] writing dependency_links to ../build/navigation_core/navigation_core.egg-info/dependency_links.txt
+[8.466s] writing entry points to ../build/navigation_core/navigation_core.egg-info/entry_points.txt
+[8.466s] writing requirements to ../build/navigation_core/navigation_core.egg-info/requires.txt
+[8.466s] writing top-level names to ../build/navigation_core/navigation_core.egg-info/top_level.txt
+[8.466s] writing manifest file '../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+[8.466s] reading manifest file '../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+[8.466s] writing manifest file '../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+[8.466s] running build
+[8.466s] running build_py
+[8.467s] creating /home/pioneer-ii/pioneer_ws/src/build/navigation_core/build
+[8.467s] creating /home/pioneer-ii/pioneer_ws/src/build/navigation_core/build/lib
+[8.467s] creating /home/pioneer-ii/pioneer_ws/src/build/navigation_core/build/lib/navigation_core
+[8.467s] copying navigation_core/__init__.py -> /home/pioneer-ii/pioneer_ws/src/build/navigation_core/build/lib/navigation_core
+[8.467s] running install
+[8.470s] running install_lib
+[8.472s] creating /home/pioneer-ii/pioneer_ws/src/install/navigation_core/lib/python3.8/site-packages/navigation_core
+[8.472s] copying /home/pioneer-ii/pioneer_ws/src/build/navigation_core/build/lib/navigation_core/__init__.py -> /home/pioneer-ii/pioneer_ws/src/install/navigation_core/lib/python3.8/site-packages/navigation_core
+[8.472s] byte-compiling /home/pioneer-ii/pioneer_ws/src/install/navigation_core/lib/python3.8/site-packages/navigation_core/__init__.py to __init__.cpython-38.pyc
+[8.473s] running install_data
+[8.473s] creating /home/pioneer-ii/pioneer_ws/src/install/navigation_core/share/ament_index
+[8.473s] creating /home/pioneer-ii/pioneer_ws/src/install/navigation_core/share/ament_index/resource_index
+[8.473s] creating /home/pioneer-ii/pioneer_ws/src/install/navigation_core/share/ament_index/resource_index/packages
+[8.473s] copying resource/navigation_core -> /home/pioneer-ii/pioneer_ws/src/install/navigation_core/share/ament_index/resource_index/packages
+[8.473s] copying package.xml -> /home/pioneer-ii/pioneer_ws/src/install/navigation_core/share/navigation_core
+[8.473s] running install_egg_info
+[8.475s] Copying ../build/navigation_core/navigation_core.egg-info to /home/pioneer-ii/pioneer_ws/src/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info
+[8.475s] running install_scripts
+[8.511s] writing list of installed files to '/home/pioneer-ii/pioneer_ws/src/build/navigation_core/install.log'
+[9.486s] Invoked command in '/home/pioneer-ii/pioneer_ws/src/navigation_core' returned '0': PYTHONPATH=/home/pioneer-ii/pioneer_ws/src/build/navigation_core/prefix_override:/home/pioneer-ii/pioneer_ws/src/install/navigation_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/navigation_core build --build-base /home/pioneer-ii/pioneer_ws/src/build/navigation_core/build install --record /home/pioneer-ii/pioneer_ws/src/build/navigation_core/install.log --install-scripts $base/lib/navigation_core --single-version-externally-managed

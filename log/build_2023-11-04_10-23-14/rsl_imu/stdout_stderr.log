@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../build/rsl_imu/rsl_imu.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rsl_imu/rsl_imu.egg-info/dependency_links.txt
+writing entry points to ../../../build/rsl_imu/rsl_imu.egg-info/entry_points.txt
+writing requirements to ../../../build/rsl_imu/rsl_imu.egg-info/requires.txt
+writing top-level names to ../../../build/rsl_imu/rsl_imu.egg-info/top_level.txt
+reading manifest file '../../../build/rsl_imu/rsl_imu.egg-info/SOURCES.txt'
+writing manifest file '../../../build/rsl_imu/rsl_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../../build/rsl_imu/rsl_imu.egg-info to /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu-0.0.0-py3.8.egg-info
+running install_scripts
+Installing run_imu script to /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/rsl_imu
+writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rsl_imu/install.log'

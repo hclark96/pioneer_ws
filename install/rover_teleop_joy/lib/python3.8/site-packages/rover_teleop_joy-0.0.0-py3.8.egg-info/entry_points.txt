@@ -1,0 +1,3 @@
+[console_scripts]
+rover_joy = rover_teleop_joy.run_joy:main
+

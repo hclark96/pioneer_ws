@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rover_teleop_joy/rover_teleop_joy.egg-info
+writing ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/entry_points.txt
+writing requirements to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/requires.txt
+writing top-level names to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/top_level.txt
+writing manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+reading manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build
+creating /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build/lib
+creating /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build/lib/rover_teleop_joy
+copying rover_teleop_joy/__init__.py -> /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build/lib/rover_teleop_joy
+copying rover_teleop_joy/run_joy.py -> /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build/lib/rover_teleop_joy
+running install
+running install_lib
+creating /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy
+copying /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build/lib/rover_teleop_joy/__init__.py -> /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy
+copying /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build/lib/rover_teleop_joy/run_joy.py -> /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy
+byte-compiling /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy/run_joy.py to run_joy.cpython-38.pyc
+running install_data
+creating /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/share/ament_index
+creating /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/share/ament_index/resource_index
+creating /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/share/ament_index/resource_index/packages
+copying resource/rover_teleop_joy -> /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/share/ament_index/resource_index/packages
+copying package.xml -> /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/share/rover_teleop_joy
+running install_egg_info
+Copying ../../build/rover_teleop_joy/rover_teleop_joy.egg-info to /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rover_joy script to /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/rover_teleop_joy
+writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/install.log'
