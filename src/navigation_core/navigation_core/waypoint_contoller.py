@@ -74,6 +74,7 @@ class getQuat(Node):
 
     def listener_callback(self, msg):
         quat = msg.quat
+        yawRover = atan2(2.0*(quat[1]*quat[2] + quat[3]*quat[0]), quat[3]*quat[3] - quat[0]*quat[0] - quat[1]*quat[1] + quat[2]*quat[2]);
         
 class getTarget(Node):
 
@@ -104,18 +105,23 @@ class giveDirections(Node):
         self.i = 0
 
     def timer_callback(self):
-        quat_tf = sensor.quaternion
-        msg_quat = Quaternion(x=quat_tf[0], y=quat_tf[1], z=quat_tf[2], w=quat_tf[3])
-        #print(msg_quat)
-        msg = Quaternion()
-        msg = msg_quat
-        self.publisher_.publish(msg)
+        bearingX = cos(lat2) * sin(lon2-lon1)
+        bearingY = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(lon2-lon1)
+        yawTarget = atan2(bearingX,bearingY)
+        yawTarget = 3.14/2
+        yawDelta = yawTarget - yawRover
+        
+        dist = sqrt((lat2-lat1)**2 + (lon2-lon1)**2)
+        
+        msg = Twist()
+        
+        if dist > 0:
+            msg.linear.x = 0.7
+            msg.angular.z = 0.5 * degrees(yawDelta)/360
+        
         #print(msg)
-
-        msgC = Int16MultiArray()
-        msgC.data=sensor.calibration_status
-        self.publisherC_.publish(msgC)
-
+        self.publisher_.publish(msg)
+        
         self.i += 1
 
 def main(args=None):
