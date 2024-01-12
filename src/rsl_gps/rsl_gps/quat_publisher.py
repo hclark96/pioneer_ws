@@ -13,7 +13,8 @@ sensor = adafruit_bno055.BNO055_I2C(i2c)
 # uart = board.UART()
 # sensor = adafruit_bno055.BNO055_UART(uart)
 
-last_val = 0xFFFFimport rclpy
+last_val = 0xFFFF
+import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Quaternion
 from std_msgs.msg import Float32MultiArray

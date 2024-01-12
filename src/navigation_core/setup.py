@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'navigation_core = navigation_core.waypoint_controller:main'
+            'navigation_core = navigation_core.waypoint_controller:main',
         ],
     },
 )
