@@ -127,12 +127,12 @@ class giveDirections(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    getQuat = getQuat()
-    getGPS = getGPS()
-    getTarget = getTarget()
-    giveDirections = giveDirections()
+    Quat = getQuat()
+    GPS = getGPS()
+    Target = getTarget()
+    Directions = giveDirections()
 
-    rclpy.spin(getQuat,getGPS,getTarget,giveDirections)
+    rclpy.spin(Quat,GPS,Target,Directions)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
