@@ -26,6 +26,10 @@ def generate_launch_description():
         package="rsl_roboteq",
         executable="roboteq_node",
     )
+    
+    navigation_core = Node(
+        package="navigation_core",
+            executable="waypoint_contoller")
 
     # include another launch file
     launch_joy = IncludeLaunchDescription(
@@ -35,9 +39,10 @@ def generate_launch_description():
                 'launch/teleop-launch.py'))
     )
 
-    ld.add_action(launch_joy)
+    # ld.add_action(launch_joy)
     ld.add_action(drive_core)
     ld.add_action(cmd_roboteq)
+    ld.add_action(navigation_core)
 
     return ld
 

@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 package_name = 'navigation_core'
 
@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'navigation_core = navigation_core.waypoint_controller:main'
         ],
     },
 )
