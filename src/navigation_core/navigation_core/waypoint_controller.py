@@ -49,7 +49,8 @@ class getGPS(Node):
         super().__init__('gps_subscriber')
         self.subscription = self.create_subscription(
 		NavSatFix,
-		'robot1/gps1', 
+		'robot1/gps1',
+        self.listener_callback,
 		1)
         self.subscription
 
@@ -65,6 +66,7 @@ class getQuat(Node):
         self.subscription = self.create_subscription(
 		Quaternion,
 		'imu_quat',
+        self.listener_callback,
 		10)
         self.subscriptionC = self.create_subscription(
 		Int16MultiArray,
@@ -83,6 +85,7 @@ class getTarget(Node):
         self.subscription = self.create_subscription(
 		NavSatFix,
 		'robot1/target',
+        self.listener_callback,
 		1)
         self.subscription
 
@@ -104,7 +107,7 @@ class giveDirections(Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
-    def timer_callback(self):
+    def move_command_callback(self):
         bearingX = cos(lat2) * sin(lon2-lon1)
         bearingY = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(lon2-lon1)
         yawTarget = atan2(bearingX,bearingY)
