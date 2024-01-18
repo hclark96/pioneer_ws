@@ -69,10 +69,7 @@ class getQuat(Node):
 		'imu_quat',
         self.listener_callback,
 		10)
-        self.subscriptionC = self.create_subscription(
-		Int16MultiArray,
-		'imu/calibrationStatus',
-		4)
+        
         self.subscription
 
     def listener_callback(self, msg):
@@ -101,14 +98,13 @@ class giveDirections(Node):
         super().__init__('directions_publisher')
         self.publisher_ = self.create_publisher(
         	Twist,
-        	'cmd_vel',
-        	self.move_cmd_callback, 
+        	'cmd_vel', 
         	5)
         timer_period = 0.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
-    def move_command_callback(self):
+    def timer_callback(self):
         bearingX = cos(lat2) * sin(lon2-lon1)
         bearingY = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(lon2-lon1)
         yawTarget = atan2(bearingX,bearingY)
@@ -136,12 +132,18 @@ def main(args=None):
     Target = getTarget()
     Directions = giveDirections()
 
-    rclpy.spin(Quat,GPS,Target,Directions)
+    rclpy.spin(Quat)
+    rclpy.spin(GPS)
+    rclpy.spin(Target)
+    rclpy.spin(Directions)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    quat_publisher.destroy_node()
+    Quat.destroy_node()
+    GPS.destroy_node()
+    Target.destroy_node()
+    Directions.destroy_node()
     rclpy.shutdown()
 
 
