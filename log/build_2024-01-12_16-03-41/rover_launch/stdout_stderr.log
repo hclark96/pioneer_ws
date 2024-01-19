@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/path.sh
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/path.dsv
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.bash
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.sh
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.zsh
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.dsv
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/package.dsv
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake
+-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/package.xml

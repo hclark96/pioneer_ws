@@ -1,0 +1,22 @@
+[3.095s] Invoking command in '/home/pioneer-ii/pioneer_ws/build/rover_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-ii/pioneer_ws/install/rsl_imu:/home/pioneer-ii/pioneer_ws/install/rsl_gps:/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy:/home/pioneer-ii/pioneer_ws/install/navigation_core:/home/pioneer-ii/pioneer_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-ii/pioneer_ws/build/rover_launch -- -j6 -l6
+[4.912s] Invoked command in '/home/pioneer-ii/pioneer_ws/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-ii/pioneer_ws/install/rsl_imu:/home/pioneer-ii/pioneer_ws/install/rsl_gps:/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy:/home/pioneer-ii/pioneer_ws/install/navigation_core:/home/pioneer-ii/pioneer_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --build /home/pioneer-ii/pioneer_ws/build/rover_launch -- -j6 -l6
+[5.050s] Invoking command in '/home/pioneer-ii/pioneer_ws/build/rover_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-ii/pioneer_ws/install/rsl_imu:/home/pioneer-ii/pioneer_ws/install/rsl_gps:/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy:/home/pioneer-ii/pioneer_ws/install/navigation_core:/home/pioneer-ii/pioneer_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-ii/pioneer_ws/build/rover_launch
+[5.091s] -- Install configuration: ""
+[5.091s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch
+[5.091s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py
+[5.092s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch
+[5.092s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch
+[5.092s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh
+[5.092s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv
+[5.093s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/path.sh
+[5.093s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/path.dsv
+[5.093s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.bash
+[5.094s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.sh
+[5.094s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.zsh
+[5.094s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.dsv
+[5.095s] -- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/package.dsv
+[5.095s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch
+[5.095s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake
+[5.095s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake
+[5.096s] -- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/package.xml
+[5.116s] Invoked command in '/home/pioneer-ii/pioneer_ws/build/rover_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pioneer-ii/pioneer_ws/install/rsl_imu:/home/pioneer-ii/pioneer_ws/install/rsl_gps:/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy:/home/pioneer-ii/pioneer_ws/install/navigation_core:/home/pioneer-ii/pioneer_ws/install/locomotion_core:/opt/ros/foxy /usr/bin/cmake --install /home/pioneer-ii/pioneer_ws/build/rover_launch
