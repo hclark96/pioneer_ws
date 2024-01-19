@@ -78,8 +78,8 @@ class QuatPublisher(Node):
 
     def __init__(self):
         super().__init__('quat_publisher')
-        self.publisher_ = self.create_publisher(Quaternion, 'imu_quat', 10)
-        self.publisherC_ = self.create_publisher(Int16MultiArray, 'imu/calibrationStatus', 4)
+        self.publisher_ = self.create_publisher(Quaternion, 'robot2/imu_quat', 10)
+        self.publisherC_ = self.create_publisher(Int16MultiArray, 'robot2/calibrationStatus', 4)
         timer_period = 0.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0

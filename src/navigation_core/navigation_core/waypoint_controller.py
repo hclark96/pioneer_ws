@@ -50,7 +50,7 @@ class getGPS(Node):
         super().__init__('gps_subscriber')
         self.subscription = self.create_subscription(
 		NavSatFix,
-		'robot1/gps1',
+		'robot2/gps1',
         self.listener_callback,
 		1)
         self.subscription
@@ -66,7 +66,7 @@ class getQuat(Node):
         super().__init__('imu_subscriber')
         self.subscription = self.create_subscription(
 		Quaternion,
-		'imu_quat',
+		'robot2/imu_quat',
         self.listener_callback,
 		10)
         
@@ -82,7 +82,7 @@ class getTarget(Node):
         super().__init__('target_subscriber')
         self.subscription = self.create_subscription(
 		NavSatFix,
-		'robot1/target',
+		'robot2/target',
         self.listener_callback,
 		1)
         self.subscription
