@@ -6,7 +6,7 @@ class dummyTarget(Node):
 
     def __init__(self):
         super().__init__('target')
-        self.publisher_ = self.create_publisher(NavSatFix, 'robot1/target', 1)
+        self.publisher_ = self.create_publisher(NavSatFix, 'robot2/target', 1)
         timer_period = 1.0  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
@@ -19,7 +19,7 @@ class dummyTarget(Node):
         if lat is not None and lon is not None:
             msg.latitude = lat
             msg.longitude = lon
-            msg.altitude = 0
+            msg.altitude = 0.0
             msg.status.status = 1
             msg.status.service = 1
             msg.header.frame_id = 'target'

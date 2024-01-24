@@ -1,0 +1,21 @@
+[5.454s] Invoking command in '/home/pioneer-ii/pioneer_ws/src/rover_teleop_joy': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/prefix_override:/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_teleop_joy build --build-base /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build install --record /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/install.log --single-version-externally-managed
+[5.964s] running egg_info
+[5.965s] writing ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/PKG-INFO
+[5.966s] writing dependency_links to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/dependency_links.txt
+[5.966s] writing entry points to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/entry_points.txt
+[5.967s] writing requirements to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/requires.txt
+[5.968s] writing top-level names to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/top_level.txt
+[6.037s] reading manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+[6.038s] writing manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'
+[6.038s] running build
+[6.039s] running build_py
+[6.039s] running install
+[6.041s] running install_lib
+[6.045s] running install_data
+[6.046s] running install_egg_info
+[6.050s] removing '/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy-0.0.0-py3.8.egg-info' (and everything under it)
+[6.051s] Copying ../../build/rover_teleop_joy/rover_teleop_joy.egg-info to /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy-0.0.0-py3.8.egg-info
+[6.053s] running install_scripts
+[6.136s] Installing rover_joy script to /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/rover_teleop_joy
+[6.136s] writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/install.log'
+[6.448s] Invoked command in '/home/pioneer-ii/pioneer_ws/src/rover_teleop_joy' returned '0': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/prefix_override:/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_teleop_joy build --build-base /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build install --record /home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/install.log --single-version-externally-managed

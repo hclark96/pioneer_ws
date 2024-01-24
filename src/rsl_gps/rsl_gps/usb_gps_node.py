@@ -59,8 +59,8 @@ dummyLoc = [37.35230665171848, -121.94150740314477]
 class readGPS(Node):
 
     def __init__(self):
-        super().__init__('robot1_gps1')
-        self.publisher_ = self.create_publisher(NavSatFix, 'robot1/gps1', 1)
+        super().__init__('robot2_gps1')
+        self.publisher_ = self.create_publisher(NavSatFix, 'robot2/gps1', 1)
         timer_period = 1.0  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
