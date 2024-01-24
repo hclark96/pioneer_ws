@@ -21,8 +21,6 @@ setup(
     entry_points={
         'console_scripts': [
             'run_gps = rsl_gps.usb_gps_node:main',
-            'run_imu = rsl_gps.quat_publisher:main',
-            'push_target = rsl_gps.test_position:main',
         ],
     },
 )

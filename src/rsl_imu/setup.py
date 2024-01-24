@@ -1,6 +1,7 @@
 from setuptools import setup
-
-package_name = 'locomotion_core'
+import os
+import glob 
+package_name = 'rsl_imu'
 
 setup(
     name=package_name,
@@ -10,18 +11,20 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share',package_name,'launch'),glob.glob('launch/*.launch.py')),
+        (os.path.join('share',package_name,'config'),glob.glob('config/*.yaml'))
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='vboxuser',
-    maintainer_email='vboxuser@todo.todo',
+    maintainer='pioneer3',
+    maintainer_email='pioneer3@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'movebase_kinematics = locomotion_core.movebase_kinematics:main',
-            'cmd_roboteq = locomotion_core.cmd_roboteq:main',
+            'run_imu = rsl_imu.imu_node:main',
         ],
     },
 )

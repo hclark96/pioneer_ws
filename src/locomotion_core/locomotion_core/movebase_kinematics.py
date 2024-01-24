@@ -13,12 +13,12 @@ class GetMoveCmds(Node):
         # Create a subscription to the 'cmd_vel' topic with a callback function 
         self.subscription = self.create_subscription(
             Twist,
-            'cmd_vel',
+            'robot1/cmd_vel',
             self.move_cmd_callback, 5)
         self.subscription  
 
         # Create a publisher for the left & right wheel's control signal on the their topics
-        self.pub_move = self.create_publisher(Int32MultiArray, 'ch_vals', 5)
+        self.pub_move = self.create_publisher(Int32MultiArray, 'robot1/ch_vals', 5)
 
         self.lx = 0.0
         self.az = 0.0
@@ -31,8 +31,8 @@ class GetMoveCmds(Node):
         az = msg.angular.z
 
         # [EDIT THE TWO LINES BELOW] Calculate control signals based on 'linear_x' and 'angular_z' values 
-        vel_left  = int( 100*(lx - az))
-        vel_right = int(-100*(lx + az))
+        vel_left  = int( 50*(lx - az))
+        vel_right = int(-50*(lx + az))
 
         # construct payload with left & rigth velocities 
         payload = Int32MultiArray()
