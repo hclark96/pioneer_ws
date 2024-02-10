@@ -1,0 +1,22 @@
+[7.085s] Invoking command in '/home/pioneer-ii/pioneer_ws/src/rsl_gps': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rsl_gps/prefix_override:/home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_gps build --build-base /home/pioneer-ii/pioneer_ws/build/rsl_gps/build install --record /home/pioneer-ii/pioneer_ws/build/rsl_gps/install.log --single-version-externally-managed
+[7.591s] running egg_info
+[7.593s] writing ../../build/rsl_gps/rsl_gps.egg-info/PKG-INFO
+[7.594s] writing dependency_links to ../../build/rsl_gps/rsl_gps.egg-info/dependency_links.txt
+[7.595s] writing entry points to ../../build/rsl_gps/rsl_gps.egg-info/entry_points.txt
+[7.596s] writing requirements to ../../build/rsl_gps/rsl_gps.egg-info/requires.txt
+[7.596s] writing top-level names to ../../build/rsl_gps/rsl_gps.egg-info/top_level.txt
+[7.769s] reading manifest file '../../build/rsl_gps/rsl_gps.egg-info/SOURCES.txt'
+[7.910s] writing manifest file '../../build/rsl_gps/rsl_gps.egg-info/SOURCES.txt'
+[7.910s] running build
+[7.911s] running build_py
+[7.912s] running install
+[7.915s] running install_lib
+[7.920s] running install_data
+[7.922s] running install_egg_info
+[7.927s] removing '/home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps-0.0.0-py3.8.egg-info' (and everything under it)
+[7.928s] Copying ../../build/rsl_gps/rsl_gps.egg-info to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps-0.0.0-py3.8.egg-info
+[7.932s] running install_scripts
+[7.987s] Installing push_target script to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/rsl_gps
+[7.987s] Installing run_gps script to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/rsl_gps
+[7.989s] writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rsl_gps/install.log'
+[9.147s] Invoked command in '/home/pioneer-ii/pioneer_ws/src/rsl_gps' returned '0': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rsl_gps/prefix_override:/home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_gps build --build-base /home/pioneer-ii/pioneer_ws/build/rsl_gps/build install --record /home/pioneer-ii/pioneer_ws/build/rsl_gps/install.log --single-version-externally-managed

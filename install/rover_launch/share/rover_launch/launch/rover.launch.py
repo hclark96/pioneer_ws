@@ -29,7 +29,7 @@ def generate_launch_description():
     
     navigation_core = Node(
         package="navigation_core",
-            executable="waypoint_controller")
+            executable="run_navigation")
 
     # include another launch file
     launch_joy = IncludeLaunchDescription(

@@ -26,7 +26,7 @@ class motor_driver(Node):
         self.inCmd = 0.0
         self.subscription = self.create_subscription(
             Int32MultiArray,
-            'ch_vals',
+            'robot1/ch_vals',
             self.cmd_callback,
             5)
         self.subscription  # prevent unused variable warning

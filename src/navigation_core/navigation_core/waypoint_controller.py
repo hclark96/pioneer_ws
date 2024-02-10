@@ -116,11 +116,11 @@ class giveDirections(Node):
         
         msg = Twist()
         if dist > 0:
-            msg.linear.x = 0.0
-            msg.angular.z = 0.5 * yawDelta/360
+            msg.linear.x = 1.0
+            msg.angular.z = 2.4 * yawDelta/360
             print("dist", dist)
         msg.linear.x=0.0;
-        msg.angular.z=0.2;
+        msg.angular.z=1.0;
 
         #print(msg)
         self.publisher_.publish(msg)

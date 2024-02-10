@@ -14,7 +14,7 @@ def generate_launch_description():
     
     # Nodes to launch
     imu_node = Node(
-        package="rsl_gps",
+        package="rsl_imu",
         executable="run_imu",
     )
 
@@ -29,7 +29,6 @@ def generate_launch_description():
     )
 
 
-    
     navigation_core = Node(
         package="navigation_core",
             executable="waypoint_controller")

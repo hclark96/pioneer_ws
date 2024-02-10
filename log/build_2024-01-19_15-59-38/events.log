@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.000554] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.000944] (navigation_core) JobQueued: {'identifier': 'navigation_core', 'dependencies': OrderedDict()}
+[0.001158] (rover_launch) JobQueued: {'identifier': 'rover_launch', 'dependencies': OrderedDict()}
+[0.001709] (rover_teleop_joy) JobQueued: {'identifier': 'rover_teleop_joy', 'dependencies': OrderedDict()}
+[0.002048] (rsl_gps) JobQueued: {'identifier': 'rsl_gps', 'dependencies': OrderedDict()}
+[0.002203] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.099198] (-) TimerEvent: {}
+[0.200106] (-) TimerEvent: {}
+[0.301031] (-) TimerEvent: {}
+[0.402130] (-) TimerEvent: {}
+[0.502785] (-) TimerEvent: {}
+[0.603560] (-) TimerEvent: {}
+[0.667508] (navigation_core) JobStarted: {'identifier': 'navigation_core'}
+[0.703800] (-) TimerEvent: {}
+[0.804970] (-) TimerEvent: {}
+[0.905776] (-) TimerEvent: {}
+[1.007590] (-) TimerEvent: {}
+[1.109208] (-) TimerEvent: {}
+[1.210580] (-) TimerEvent: {}
+[1.272350] (rover_launch) JobStarted: {'identifier': 'rover_launch'}
+[1.310753] (-) TimerEvent: {}
+[1.412399] (-) TimerEvent: {}
+[1.513532] (-) TimerEvent: {}
+[1.614044] (-) TimerEvent: {}
+[1.662429] (rover_teleop_joy) JobStarted: {'identifier': 'rover_teleop_joy'}
+[1.714337] (-) TimerEvent: {}
+[1.815353] (-) TimerEvent: {}
+[1.916216] (-) TimerEvent: {}
+[2.016959] (-) TimerEvent: {}
+[2.118403] (-) TimerEvent: {}
+[2.207294] (rsl_gps) JobStarted: {'identifier': 'rsl_gps'}
+[2.219176] (-) TimerEvent: {}
+[2.320074] (-) TimerEvent: {}
+[2.532423] (-) TimerEvent: {}
+[2.633272] (-) TimerEvent: {}
+[2.734236] (-) TimerEvent: {}
+[2.834982] (-) TimerEvent: {}
+[2.935963] (-) TimerEvent: {}
+[3.036867] (-) TimerEvent: {}
+[3.137833] (-) TimerEvent: {}
+[3.238656] (-) TimerEvent: {}
+[3.339668] (-) TimerEvent: {}
+[3.440398] (-) TimerEvent: {}
+[3.541215] (-) TimerEvent: {}
+[3.641990] (-) TimerEvent: {}
+[3.743016] (-) TimerEvent: {}
+[3.843542] (-) TimerEvent: {}
+[3.944237] (-) TimerEvent: {}
+[4.045308] (-) TimerEvent: {}
+[4.146255] (-) TimerEvent: {}
+[4.247217] (-) TimerEvent: {}
+[4.348140] (-) TimerEvent: {}
+[4.449057] (-) TimerEvent: {}
+[4.550293] (-) TimerEvent: {}
+[4.652276] (-) TimerEvent: {}
+[4.741562] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'cmake'}
+[4.752388] (-) TimerEvent: {}
+[4.853160] (-) TimerEvent: {}
+[4.866631] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'build'}
+[4.868512] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pioneer-ii/pioneer_ws/build/rover_launch', '--', '-j6', '-l6'], 'cwd': '/home/pioneer-ii/pioneer_ws/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-ii'), ('SSH_AGENT_PID', '2519'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-ii'), ('OLDPWD', '/home/pioneer-ii'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1563'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-ii'), ('JOURNAL_STREAM', '8:52568'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-ii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-ii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-ii:@/tmp/.ICE-unix/2575,unix/pioneer-ii:/tmp/.ICE-unix/2575'), ('INVOCATION_ID', '522f6aa99d354cf1827ed6d4c075efc0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5598c2e_9239_4e57_9ebd_cb5ec2f1916a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-ii/pioneer_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.953465] (-) TimerEvent: {}
+[5.054658] (-) TimerEvent: {}
+[5.155684] (-) TimerEvent: {}
+[5.256670] (-) TimerEvent: {}
+[5.357607] (-) TimerEvent: {}
+[5.458421] (-) TimerEvent: {}
+[5.559325] (-) TimerEvent: {}
+[5.661446] (-) TimerEvent: {}
+[5.762770] (-) TimerEvent: {}
+[5.863848] (-) TimerEvent: {}
+[5.964961] (-) TimerEvent: {}
+[6.065881] (-) TimerEvent: {}
+[6.166733] (-) TimerEvent: {}
+[6.267679] (-) TimerEvent: {}
+[6.368413] (-) TimerEvent: {}
+[6.469136] (-) TimerEvent: {}
+[6.615856] (-) TimerEvent: {}
+[6.717370] (-) TimerEvent: {}
+[6.770743] (rover_launch) CommandEnded: {'returncode': 0}
+[6.817641] (-) TimerEvent: {}
+[6.918692] (-) TimerEvent: {}
+[6.944276] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'install'}
+[6.978249] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pioneer-ii/pioneer_ws/build/rover_launch'], 'cwd': '/home/pioneer-ii/pioneer_ws/build/rover_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pioneer-ii'), ('SSH_AGENT_PID', '2519'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pioneer-ii'), ('OLDPWD', '/home/pioneer-ii'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1563'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pioneer-ii'), ('JOURNAL_STREAM', '8:52568'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pioneer-ii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/pioneer-ii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pioneer-ii:@/tmp/.ICE-unix/2575,unix/pioneer-ii:/tmp/.ICE-unix/2575'), ('INVOCATION_ID', '522f6aa99d354cf1827ed6d4c075efc0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5598c2e_9239_4e57_9ebd_cb5ec2f1916a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.79'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pioneer-ii/pioneer_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.019036] (-) TimerEvent: {}
+[7.120594] (-) TimerEvent: {}
+[7.147975] (rover_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.152909] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch\n'}
+[7.153754] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/gps.launch.py\n'}
+[7.154007] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py\n'}
+[7.156389] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch\n'}
+[7.157373] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch\n'}
+[7.158318] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh\n'}
+[7.158623] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv\n'}
+[7.158988] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/path.sh\n'}
+[7.159312] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/path.dsv\n'}
+[7.159584] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.bash\n'}
+[7.159729] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.sh\n'}
+[7.159875] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.zsh\n'}
+[7.160008] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/local_setup.dsv\n'}
+[7.160137] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/package.dsv\n'}
+[7.162126] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch\n'}
+[7.164158] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake\n'}
+[7.164538] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake\n'}
+[7.164870] (rover_launch) StdoutLine: {'line': b'-- Up-to-date: /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/package.xml\n'}
+[7.176891] (rover_launch) CommandEnded: {'returncode': 0}
+[7.223433] (-) TimerEvent: {}
+[7.325237] (-) TimerEvent: {}
+[7.537932] (-) TimerEvent: {}
+[7.639738] (-) TimerEvent: {}
+[7.740707] (-) TimerEvent: {}
+[7.842684] (-) TimerEvent: {}
+[7.944399] (-) TimerEvent: {}
+[8.045603] (-) TimerEvent: {}
+[8.119270] (rover_launch) JobEnded: {'identifier': 'rover_launch', 'rc': 0}
+[8.145673] (-) TimerEvent: {}
+[8.246232] (-) TimerEvent: {}
+[8.347224] (-) TimerEvent: {}
+[8.448162] (-) TimerEvent: {}
+[8.549144] (-) TimerEvent: {}
+[8.650231] (-) TimerEvent: {}
+[8.728390] (rsl_gps) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rsl_gps', 'build', '--build-base', '/home/pioneer-ii/pioneer_ws/build/rsl_gps/build', 'install', '--record', '/home/pioneer-ii/pioneer_ws/build/rsl_gps/install.log', '--single-version-externally-managed'], 'cwd': '/home/pioneer-ii/pioneer_ws/src/rsl_gps', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-ii', 'SSH_AGENT_PID': '2519', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-ii', 'OLDPWD': '/home/pioneer-ii', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1563', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-ii', 'JOURNAL_STREAM': '8:52568', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-ii', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-ii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-ii:@/tmp/.ICE-unix/2575,unix/pioneer-ii:/tmp/.ICE-unix/2575', 'INVOCATION_ID': '522f6aa99d354cf1827ed6d4c075efc0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c5598c2e_9239_4e57_9ebd_cb5ec2f1916a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-ii/pioneer_ws/build/rsl_gps', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-ii/pioneer_ws/build/rsl_gps/prefix_override:/home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[8.740160] (navigation_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation_core', 'build', '--build-base', '/home/pioneer-ii/pioneer_ws/build/navigation_core/build', 'install', '--record', '/home/pioneer-ii/pioneer_ws/build/navigation_core/install.log', '--install-scripts', '$base/lib/navigation_core', '--single-version-externally-managed'], 'cwd': '/home/pioneer-ii/pioneer_ws/src/navigation_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-ii', 'SSH_AGENT_PID': '2519', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-ii', 'OLDPWD': '/home/pioneer-ii', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1563', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-ii', 'JOURNAL_STREAM': '8:52568', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-ii', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-ii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-ii:@/tmp/.ICE-unix/2575,unix/pioneer-ii:/tmp/.ICE-unix/2575', 'INVOCATION_ID': '522f6aa99d354cf1827ed6d4c075efc0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c5598c2e_9239_4e57_9ebd_cb5ec2f1916a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-ii/pioneer_ws/build/navigation_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-ii/pioneer_ws/build/navigation_core/prefix_override:/home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[8.749529] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion_core', 'build', '--build-base', '/home/pioneer-ii/pioneer_ws/build/locomotion_core/build', 'install', '--record', '/home/pioneer-ii/pioneer_ws/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/pioneer-ii/pioneer_ws/src/locomotion_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-ii', 'SSH_AGENT_PID': '2519', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-ii', 'OLDPWD': '/home/pioneer-ii', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1563', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-ii', 'JOURNAL_STREAM': '8:52568', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-ii', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-ii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-ii:@/tmp/.ICE-unix/2575,unix/pioneer-ii:/tmp/.ICE-unix/2575', 'INVOCATION_ID': '522f6aa99d354cf1827ed6d4c075efc0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c5598c2e_9239_4e57_9ebd_cb5ec2f1916a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-ii/pioneer_ws/build/locomotion_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-ii/pioneer_ws/build/locomotion_core/prefix_override:/home/pioneer-ii/pioneer_ws/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[8.756810] (-) TimerEvent: {}
+[8.759619] (rover_teleop_joy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rover_teleop_joy', 'build', '--build-base', '/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/build', 'install', '--record', '/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/install.log', '--single-version-externally-managed'], 'cwd': '/home/pioneer-ii/pioneer_ws/src/rover_teleop_joy', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pioneer-ii', 'SSH_AGENT_PID': '2519', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/pioneer-ii', 'OLDPWD': '/home/pioneer-ii', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1563', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pioneer-ii', 'JOURNAL_STREAM': '8:52568', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pioneer-ii', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/pioneer-ii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pioneer-ii:@/tmp/.ICE-unix/2575,unix/pioneer-ii:/tmp/.ICE-unix/2575', 'INVOCATION_ID': '522f6aa99d354cf1827ed6d4c075efc0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c5598c2e_9239_4e57_9ebd_cb5ec2f1916a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/prefix_override:/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[8.857175] (-) TimerEvent: {}
+[8.958356] (-) TimerEvent: {}
+[9.059354] (-) TimerEvent: {}
+[9.160356] (-) TimerEvent: {}
+[9.210683] (navigation_core) StdoutLine: {'line': b'running egg_info\n'}
+[9.212251] (navigation_core) StdoutLine: {'line': b'writing ../../build/navigation_core/navigation_core.egg-info/PKG-INFO\n'}
+[9.230663] (rsl_gps) StdoutLine: {'line': b'running egg_info\n'}
+[9.232522] (rsl_gps) StdoutLine: {'line': b'writing ../../build/rsl_gps/rsl_gps.egg-info/PKG-INFO\n'}
+[9.244916] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[9.246629] (locomotion_core) StdoutLine: {'line': b'writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[9.260409] (-) TimerEvent: {}
+[9.269562] (rover_teleop_joy) StdoutLine: {'line': b'running egg_info\n'}
+[9.271125] (rover_teleop_joy) StdoutLine: {'line': b'writing ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/PKG-INFO\n'}
+[9.351538] (rsl_gps) StdoutLine: {'line': b'writing dependency_links to ../../build/rsl_gps/rsl_gps.egg-info/dependency_links.txt\n'}
+[9.351853] (navigation_core) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation_core/navigation_core.egg-info/dependency_links.txt\n'}
+[9.352241] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[9.352431] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[9.352611] (rover_teleop_joy) StdoutLine: {'line': b'writing dependency_links to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/dependency_links.txt\n'}
+[9.352778] (navigation_core) StdoutLine: {'line': b'writing entry points to ../../build/navigation_core/navigation_core.egg-info/entry_points.txt\n'}
+[9.352918] (navigation_core) StdoutLine: {'line': b'writing requirements to ../../build/navigation_core/navigation_core.egg-info/requires.txt\n'}
+[9.353862] (rover_teleop_joy) StdoutLine: {'line': b'writing entry points to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/entry_points.txt\n'}
+[9.354035] (rsl_gps) StdoutLine: {'line': b'writing entry points to ../../build/rsl_gps/rsl_gps.egg-info/entry_points.txt\n'}
+[9.354180] (navigation_core) StdoutLine: {'line': b'writing top-level names to ../../build/navigation_core/navigation_core.egg-info/top_level.txt\n'}
+[9.354313] (rsl_gps) StdoutLine: {'line': b'writing requirements to ../../build/rsl_gps/rsl_gps.egg-info/requires.txt\n'}
+[9.354440] (rover_teleop_joy) StdoutLine: {'line': b'writing requirements to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/requires.txt\n'}
+[9.354568] (rover_teleop_joy) StdoutLine: {'line': b'writing top-level names to ../../build/rover_teleop_joy/rover_teleop_joy.egg-info/top_level.txt\n'}
+[9.354691] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[9.354816] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[9.354974] (rsl_gps) StdoutLine: {'line': b'writing top-level names to ../../build/rsl_gps/rsl_gps.egg-info/top_level.txt\n'}
+[9.360484] (-) TimerEvent: {}
+[9.440900] (rsl_gps) StdoutLine: {'line': b"reading manifest file '../../build/rsl_gps/rsl_gps.egg-info/SOURCES.txt'\n"}
+[9.441617] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[9.443601] (rover_teleop_joy) StdoutLine: {'line': b"reading manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'\n"}
+[9.443821] (navigation_core) StdoutLine: {'line': b"reading manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'\n"}
+[9.460571] (-) TimerEvent: {}
+[9.561035] (-) TimerEvent: {}
+[9.580874] (rsl_gps) StdoutLine: {'line': b"writing manifest file '../../build/rsl_gps/rsl_gps.egg-info/SOURCES.txt'\n"}
+[9.581401] (rsl_gps) StdoutLine: {'line': b'running build\n'}
+[9.581682] (rsl_gps) StdoutLine: {'line': b'running build_py\n'}
+[9.582003] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[9.582379] (rover_teleop_joy) StdoutLine: {'line': b"writing manifest file '../../build/rover_teleop_joy/rover_teleop_joy.egg-info/SOURCES.txt'\n"}
+[9.582689] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[9.582845] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[9.583046] (rover_teleop_joy) StdoutLine: {'line': b'running build\n'}
+[9.583313] (rover_teleop_joy) StdoutLine: {'line': b'running build_py\n'}
+[9.583556] (navigation_core) StdoutLine: {'line': b"writing manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'\n"}
+[9.583825] (navigation_core) StdoutLine: {'line': b'running build\n'}
+[9.584054] (navigation_core) StdoutLine: {'line': b'running build_py\n'}
+[9.591537] (rover_teleop_joy) StdoutLine: {'line': b'running install\n'}
+[9.592000] (rsl_gps) StdoutLine: {'line': b'running install\n'}
+[9.592824] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[9.593054] (navigation_core) StdoutLine: {'line': b'running install\n'}
+[9.594163] (rsl_gps) StdoutLine: {'line': b'running install_lib\n'}
+[9.594392] (rover_teleop_joy) StdoutLine: {'line': b'running install_lib\n'}
+[9.595551] (navigation_core) StdoutLine: {'line': b'running install_lib\n'}
+[9.595887] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[9.599740] (rsl_gps) StdoutLine: {'line': b'running install_data\n'}
+[9.600302] (rover_teleop_joy) StdoutLine: {'line': b'running install_data\n'}
+[9.600972] (navigation_core) StdoutLine: {'line': b'running install_data\n'}
+[9.602672] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[9.603395] (rsl_gps) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.604210] (rover_teleop_joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.605317] (navigation_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.606280] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.608051] (rsl_gps) StdoutLine: {'line': b"removing '/home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.608817] (rover_teleop_joy) StdoutLine: {'line': b"removing '/home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.609217] (rsl_gps) StdoutLine: {'line': b'Copying ../../build/rsl_gps/rsl_gps.egg-info to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/python3.8/site-packages/rsl_gps-0.0.0-py3.8.egg-info\n'}
+[9.609639] (rover_teleop_joy) StdoutLine: {'line': b'Copying ../../build/rover_teleop_joy/rover_teleop_joy.egg-info to /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/python3.8/site-packages/rover_teleop_joy-0.0.0-py3.8.egg-info\n'}
+[9.610676] (navigation_core) StdoutLine: {'line': b"removing '/home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.611957] (navigation_core) StdoutLine: {'line': b'Copying ../../build/navigation_core/navigation_core.egg-info to /home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info\n'}
+[9.612369] (locomotion_core) StdoutLine: {'line': b"removing '/home/pioneer-ii/pioneer_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.612664] (rsl_gps) StdoutLine: {'line': b'running install_scripts\n'}
+[9.613039] (rover_teleop_joy) StdoutLine: {'line': b'running install_scripts\n'}
+[9.613270] (locomotion_core) StdoutLine: {'line': b'Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/pioneer-ii/pioneer_ws/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info\n'}
+[9.615479] (navigation_core) StdoutLine: {'line': b'running install_scripts\n'}
+[9.616298] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[9.658814] (rover_teleop_joy) StdoutLine: {'line': b'Installing rover_joy script to /home/pioneer-ii/pioneer_ws/install/rover_teleop_joy/lib/rover_teleop_joy\n'}
+[9.659654] (rsl_gps) StdoutLine: {'line': b'Installing push_target script to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/rsl_gps\n'}
+[9.661149] (-) TimerEvent: {}
+[9.664334] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/pioneer-ii/pioneer_ws/install/locomotion_core/lib/locomotion_core\n'}
+[9.664759] (navigation_core) StdoutLine: {'line': b'Installing navigation_core script to /home/pioneer-ii/pioneer_ws/install/navigation_core/lib/navigation_core\n'}
+[9.761353] (-) TimerEvent: {}
+[9.797342] (rsl_gps) StdoutLine: {'line': b'Installing run_gps script to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/rsl_gps\n'}
+[9.798313] (rsl_gps) StdoutLine: {'line': b'Installing run_imu script to /home/pioneer-ii/pioneer_ws/install/rsl_gps/lib/rsl_gps\n'}
+[9.798607] (rover_teleop_joy) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rover_teleop_joy/install.log'\n"}
+[9.798967] (locomotion_core) StdoutLine: {'line': b'Installing movebase_kinematics script to /home/pioneer-ii/pioneer_ws/install/locomotion_core/lib/locomotion_core\n'}
+[9.799276] (navigation_core) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/navigation_core/install.log'\n"}
+[9.799542] (rsl_gps) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rsl_gps/install.log'\n"}
+[9.799698] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/locomotion_core/install.log'\n"}
+[9.861653] (-) TimerEvent: {}
+[9.895456] (rover_teleop_joy) CommandEnded: {'returncode': 0}
+[9.961804] (-) TimerEvent: {}
+[10.063688] (-) TimerEvent: {}
+[10.165022] (-) TimerEvent: {}
+[10.267052] (-) TimerEvent: {}
+[10.317575] (rover_teleop_joy) JobEnded: {'identifier': 'rover_teleop_joy', 'rc': 0}
+[10.321092] (rsl_gps) CommandEnded: {'returncode': 0}
+[10.367223] (-) TimerEvent: {}
+[10.468124] (-) TimerEvent: {}
+[10.568680] (-) TimerEvent: {}
+[10.669412] (-) TimerEvent: {}
+[10.709374] (rsl_gps) JobEnded: {'identifier': 'rsl_gps', 'rc': 0}
+[10.710260] (navigation_core) CommandEnded: {'returncode': 0}
+[10.769687] (-) TimerEvent: {}
+[10.870439] (-) TimerEvent: {}
+[10.971269] (-) TimerEvent: {}
+[11.072347] (-) TimerEvent: {}
+[11.101541] (navigation_core) JobEnded: {'identifier': 'navigation_core', 'rc': 0}
+[11.103477] (locomotion_core) CommandEnded: {'returncode': 0}
+[11.172636] (-) TimerEvent: {}
+[11.273610] (-) TimerEvent: {}
+[11.374281] (-) TimerEvent: {}
+[11.475848] (-) TimerEvent: {}
+[11.495837] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[11.498583] (-) EventReactorShutdown: {}
