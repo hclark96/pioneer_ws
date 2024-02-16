@@ -1,0 +1,21 @@
+[6.118s] Invoking command in '/home/pioneer-ii/pioneer_ws/src/rsl_imu': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rsl_imu/prefix_override:/home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_imu build --build-base /home/pioneer-ii/pioneer_ws/build/rsl_imu/build install --record /home/pioneer-ii/pioneer_ws/build/rsl_imu/install.log --install-scripts $base/lib/rsl_imu --single-version-externally-managed
+[6.655s] running egg_info
+[6.658s] writing ../../build/rsl_imu/rsl_imu.egg-info/PKG-INFO
+[6.659s] writing dependency_links to ../../build/rsl_imu/rsl_imu.egg-info/dependency_links.txt
+[6.659s] writing entry points to ../../build/rsl_imu/rsl_imu.egg-info/entry_points.txt
+[6.660s] writing requirements to ../../build/rsl_imu/rsl_imu.egg-info/requires.txt
+[6.665s] writing top-level names to ../../build/rsl_imu/rsl_imu.egg-info/top_level.txt
+[6.739s] reading manifest file '../../build/rsl_imu/rsl_imu.egg-info/SOURCES.txt'
+[6.740s] writing manifest file '../../build/rsl_imu/rsl_imu.egg-info/SOURCES.txt'
+[6.741s] running build
+[6.741s] running build_py
+[6.784s] running install
+[6.785s] running install_lib
+[6.785s] running install_data
+[6.785s] running install_egg_info
+[6.786s] removing '/home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu-0.0.0-py3.8.egg-info' (and everything under it)
+[6.786s] Copying ../../build/rsl_imu/rsl_imu.egg-info to /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu-0.0.0-py3.8.egg-info
+[6.786s] running install_scripts
+[6.817s] Installing run_imu script to /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/rsl_imu
+[6.818s] writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rsl_imu/install.log'
+[7.664s] Invoked command in '/home/pioneer-ii/pioneer_ws/src/rsl_imu' returned '0': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rsl_imu/prefix_override:/home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_imu build --build-base /home/pioneer-ii/pioneer_ws/build/rsl_imu/build install --record /home/pioneer-ii/pioneer_ws/build/rsl_imu/install.log --install-scripts $base/lib/rsl_imu --single-version-externally-managed

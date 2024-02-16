@@ -10,13 +10,13 @@ from std_msgs.msg import Float32MultiArray
 
 
 from sensor_msgs.msg import NavSatFix
-from math import sin, cos, atan2, sqrt, degrees
+from math import sin, cos, atan2, sqrt, degrees, pi
 import numpy
 import time
 import serial
 
 
-iniDesiredCoor = [37.35161161607423, -121.94109270507805]
+iniDesiredCoor = [37.35228, -121.941788]
 f1 = 0
 path_id = 0
 
@@ -52,16 +52,16 @@ class giveDirections(Node):
         super().__init__('directions_publisher')
         self.publisher_ = self.create_publisher(
         	Twist,
-        	'/robot1/cmd_vel', 
+        	'/robot2/cmd_vel', 
         	5)
-        timer_period = 0.5  # seconds
+        timer_period = 0.1  # seconds
         self.timer = self.create_timer(timer_period, self.give_dir)
 
         # Create a subscription to get current Euler Angles from IMU
         self.curHeading = 0; #Euler Angle (heading)
         self.subscriptionEuler = self.create_subscription(
             Float32MultiArray,
-            'robot1/imu/eulerAngle',
+            'robot2/imu/eulerAngle',
             self.euler_callback, 
             5)
         self.subscriptionEuler 
@@ -72,7 +72,7 @@ class giveDirections(Node):
         self.statusGPS=True;
         self.subscriptionLoc = self.create_subscription(
 		NavSatFix,
-		'robot1/gps1',
+		'robot2/gps1',
         self.current_gps_callback,
 		5)
         self.subscriptionLoc
@@ -81,7 +81,7 @@ class giveDirections(Node):
         self.desLat, self.desLon  = iniDesiredCoor;
         self.subscriptionTarget = self.create_subscription(
 		NavSatFix,
-		'/robot1/target',
+		'/robot2/target',
         self.target_callback,
 		5)
         self.subscriptionTarget
@@ -108,19 +108,30 @@ class giveDirections(Node):
         bearingX = cos(self.desLat) * sin(self.desLon-self.curLon)
         bearingY = cos(self.curLat) * sin(self.desLat) - sin(self.curLat) * cos(self.desLat) * cos(self.desLon-self.curLon)
         yawTarget = atan2(bearingX,bearingY)
-        print("Target bearing", degrees(yawTarget))
-        yawTarget = 90
+        if yawTarget < 0.0:
+        	yawTarget += 2 * pi
+        
+        # yawTarget = 90
         yawDelta = degrees(yawTarget) - self.curHeading
+        
+        print("Target bearing", degrees(yawTarget),"Current bearing",self.curHeading, "Error", yawDelta)
         
         dist = sqrt((self.desLat-self.curLat)**2 + (self.desLon-self.curLon)**2)
         
         msg = Twist()
-        if dist > 0:
-            msg.linear.x = 1.0
-            msg.angular.z = 2.4 * yawDelta/360
-            print("dist", dist)
-        msg.linear.x=0.0;
-        msg.angular.z=1.0;
+        if dist < 0.000:
+            msg.linear.x = 0.0
+            msg.angular.z = 0.0
+            #print("dist", dist, yawDelta)
+        elif yawDelta > -90 or yawDelta < 90:
+            msg.linear.x = 0.0
+            msg.angular.z = -0.6 * yawDelta/360
+            #print("dist", dist, yawDelta)
+        else:
+            msg.linear.x = 0.0
+            msg.angular.z = -0.6 * yawDelta/360
+            #print("dist", dist, yawDelta)
+        
 
         #print(msg)
         self.publisher_.publish(msg)

@@ -1,5 +1,7 @@
+/home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/rover.launch.wjoy.py
 /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/gps.launch.py
 /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py
+/home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/launch/rover.launch.wnav.py
 /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch
 /home/pioneer-ii/pioneer_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch
 /home/pioneer-ii/pioneer_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh

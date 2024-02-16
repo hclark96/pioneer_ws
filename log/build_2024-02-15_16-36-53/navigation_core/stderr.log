@@ -1,0 +1,5 @@
+  File "/home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core/waypoint_controller.py", line 111
+    if yawTarget < 0
+                   ^
+SyntaxError: invalid syntax
+

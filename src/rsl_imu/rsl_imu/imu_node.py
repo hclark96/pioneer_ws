@@ -26,7 +26,6 @@ def set_calibration(sensor:adafruit_bno055.BNO055_I2C, calData:list):
     a value that was previously retrieved with get_calibration (and then
     perhaps persisted to disk or other location until needed again).
     """
-
     # Check that 22 bytes were passed in with calibration data.
     if calData is None or len(calData) != 22:
         print(calData)
@@ -75,7 +74,7 @@ def get_calibration(sensor:adafruit_bno055.BNO055_I2C):
 
 class readIMU(Node):
     def __init__(self):
-        super().__init__('robot1_imu')
+        super().__init__('robot2_imu')
         self.declare_parameters(
              namespace='',
              parameters=[
@@ -84,15 +83,15 @@ class readIMU(Node):
                   ('calibFileLoc',None)
              ]
         )
-        self.publisherQ_ = self.create_publisher(Quaternion, 'robot1/imu/quaternion', 1)
-        self.publisherE_ = self.create_publisher(Float32MultiArray, 'robot1/imu/eulerAngle', 3)
-        self.publisherC_ = self.create_publisher(Int16MultiArray, 'robot1/imu/calibInfo', 4)
+        self.publisherQ_ = self.create_publisher(Quaternion, 'robot2/imu/quaternion', 1)
+        self.publisherE_ = self.create_publisher(Float32MultiArray, 'robot2/imu/eulerAngle', 3)
+        self.publisherC_ = self.create_publisher(Int16MultiArray, 'robot2/imu/calibInfo', 4)
 
         # Create a subscription to its own topic with a callback function 
         #This is so it can listen for commands to start/set/store calibration
         self.subscription = self.create_subscription(
             Int16MultiArray,
-            'robot1/imu/calibCom',
+            'robot2/imu/calibCom',
             self.calib_cmd_callback, 
             5)
         self.subscription  
@@ -100,9 +99,10 @@ class readIMU(Node):
         #Set Calibration if calibIMU is True
         if(self.get_parameter('calibrateIMU').get_parameter_value()):
             calibDataParam = self.get_parameter('calibOffsetsRadii').get_parameter_value().integer_array_value
+            print(self.get_parameter('calibrateIMU').get_parameter_value())
             set_calibration(sensor,calibDataParam)
 
-        timer_period = 0.5  # seconds
+        timer_period = 0.1  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
@@ -131,7 +131,7 @@ class readIMU(Node):
             #Store Data
             calibFile = self.get_parameter('calibFileLoc');
             calibFile=calibFile.get_parameter_value().string_value;
-            data = {'robot1_imu':{'ros__parameters':{'calibrateIMU': 1, 'calibOffsetsRadii':calData,'calibFileLoc':calibFile}}}
+            data = {'robot2_imu':{'ros__parameters':{'calibrateIMU': 1, 'calibOffsetsRadii':calData,'calibFileLoc':calibFile}}}
 
             with open(calibFile,'w',) as yamlFile:
                 yaml.dump(data,yamlFile,default_flow_style=None)

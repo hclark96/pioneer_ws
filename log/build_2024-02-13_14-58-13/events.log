@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000640] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.001013] (navigation_core) JobQueued: {'identifier': 'navigation_core', 'dependencies': OrderedDict()}
+[0.001203] (rover_launch) JobQueued: {'identifier': 'rover_launch', 'dependencies': OrderedDict()}
+[0.001736] (rover_teleop_joy) JobQueued: {'identifier': 'rover_teleop_joy', 'dependencies': OrderedDict()}
+[0.002072] (rsl_gps) JobQueued: {'identifier': 'rsl_gps', 'dependencies': OrderedDict()}
+[0.002227] (rsl_imu) JobQueued: {'identifier': 'rsl_imu', 'dependencies': OrderedDict()}
+[0.002281] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.099340] (-) TimerEvent: {}
+[0.200049] (-) TimerEvent: {}
+[0.301743] (-) TimerEvent: {}
+[0.400977] (navigation_core) JobStarted: {'identifier': 'navigation_core'}
+[0.402037] (-) TimerEvent: {}
+[0.502632] (-) TimerEvent: {}
+[0.603595] (-) TimerEvent: {}
+[0.704206] (-) TimerEvent: {}
+[0.805472] (-) TimerEvent: {}
+[0.830384] (rover_launch) JobStarted: {'identifier': 'rover_launch'}
+[0.905996] (-) TimerEvent: {}
+[1.007281] (-) TimerEvent: {}
+[1.108147] (-) TimerEvent: {}
+[1.166582] (rover_teleop_joy) JobStarted: {'identifier': 'rover_teleop_joy'}
+[1.208366] (-) TimerEvent: {}
+[1.309529] (-) TimerEvent: {}
+[1.410598] (-) TimerEvent: {}
+[1.511533] (-) TimerEvent: {}
+[1.587675] (rsl_gps) JobStarted: {'identifier': 'rsl_gps'}
+[1.611846] (-) TimerEvent: {}
+[1.713436] (-) TimerEvent: {}
+[1.814573] (-) TimerEvent: {}
+[1.915773] (-) TimerEvent: {}
+[2.019048] (-) TimerEvent: {}
+[2.023567] (rsl_imu) JobStarted: {'identifier': 'rsl_imu'}
+[2.119309] (-) TimerEvent: {}
+[2.179969] (rsl_imu) JobEnded: {'identifier': 'rsl_imu', 'rc': 0}
+[2.182581] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 'SIGINT'}
+[2.183746] (navigation_core) JobEnded: {'identifier': 'navigation_core', 'rc': 'SIGINT'}
+[2.185422] (rover_launch) JobEnded: {'identifier': 'rover_launch', 'rc': 'SIGINT'}
+[2.185878] (rover_teleop_joy) JobEnded: {'identifier': 'rover_teleop_joy', 'rc': 'SIGINT'}
+[2.186307] (rsl_gps) JobEnded: {'identifier': 'rsl_gps', 'rc': 'SIGINT'}
+[2.195579] (-) EventReactorShutdown: {}

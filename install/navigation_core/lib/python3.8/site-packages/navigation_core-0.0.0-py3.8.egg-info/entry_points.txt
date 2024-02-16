@@ -1,3 +1,4 @@
 [console_scripts]
+push_target = navigation_core.test_position:main
 run_navigation = navigation_core.waypoint_controller:main
 

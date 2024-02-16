@@ -27,6 +27,23 @@ def generate_launch_description():
         executable="roboteq_node",
     )
     
+    run_gps = Node(
+        package="rsl_gps",
+        executable="run_gps",
+    )
+    config_imu = os.path.join(
+    	get_package_share_directory('rsl_imu'),
+    	'config',
+        'paramsIMU.yaml'
+        )
+    run_imu = Node(
+        package="rsl_imu",
+        executable="run_imu",
+        parameters=[config_imu]
+        
+    )
+    
+    
     navigation_core = Node(
         package="navigation_core",
             executable="run_navigation")
@@ -42,7 +59,9 @@ def generate_launch_description():
     # ld.add_action(launch_joy)
     ld.add_action(drive_core)
     ld.add_action(cmd_roboteq)
-    ld.add_action(navigation_core)
+    ld.add_action(run_gps)
+    ld.add_action(run_imu)
+    # ld.add_action(navigation_core)
 
     return ld
 

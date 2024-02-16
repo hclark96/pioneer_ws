@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'run_navigation = navigation_core.waypoint_controller:main',
+            'push_target = navigation_core.test_position:main',
         ],
     },
 )

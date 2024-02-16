@@ -1,0 +1,30 @@
+[7.892s] Invoking command in '/home/pioneer-ii/pioneer_ws/src/navigation_core': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/navigation_core/prefix_override:/home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core build --build-base /home/pioneer-ii/pioneer_ws/build/navigation_core/build install --record /home/pioneer-ii/pioneer_ws/build/navigation_core/install.log --install-scripts $base/lib/navigation_core --single-version-externally-managed
+[8.401s] running egg_info
+[8.403s] writing ../../build/navigation_core/navigation_core.egg-info/PKG-INFO
+[8.405s] writing dependency_links to ../../build/navigation_core/navigation_core.egg-info/dependency_links.txt
+[8.405s] writing entry points to ../../build/navigation_core/navigation_core.egg-info/entry_points.txt
+[8.406s] writing requirements to ../../build/navigation_core/navigation_core.egg-info/requires.txt
+[8.406s] writing top-level names to ../../build/navigation_core/navigation_core.egg-info/top_level.txt
+[8.495s] reading manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+[8.495s] writing manifest file '../../build/navigation_core/navigation_core.egg-info/SOURCES.txt'
+[8.495s] running build
+[8.495s] running build_py
+[8.509s] copying navigation_core/waypoint_controller.py -> /home/pioneer-ii/pioneer_ws/build/navigation_core/build/lib/navigation_core
+[8.510s] running install
+[8.510s] running install_lib
+[8.510s] copying /home/pioneer-ii/pioneer_ws/build/navigation_core/build/lib/navigation_core/waypoint_controller.py -> /home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core
+[8.511s] byte-compiling /home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core/waypoint_controller.py to waypoint_controller.cpython-38.pyc
+[8.513s] running install_data
+[8.514s]   File "/home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core/waypoint_controller.py", line 111
+[8.514s]     if yawTarget < 0
+[8.514s]                    ^
+[8.514s] SyntaxError: invalid syntax
+[8.514s] 
+[8.515s] running install_egg_info
+[8.515s] removing '/home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info' (and everything under it)
+[8.515s] Copying ../../build/navigation_core/navigation_core.egg-info to /home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages/navigation_core-0.0.0-py3.8.egg-info
+[8.515s] running install_scripts
+[8.562s] Installing push_target script to /home/pioneer-ii/pioneer_ws/install/navigation_core/lib/navigation_core
+[8.563s] Installing run_navigation script to /home/pioneer-ii/pioneer_ws/install/navigation_core/lib/navigation_core
+[8.564s] writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/navigation_core/install.log'
+[9.471s] Invoked command in '/home/pioneer-ii/pioneer_ws/src/navigation_core' returned '0': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/navigation_core/prefix_override:/home/pioneer-ii/pioneer_ws/install/navigation_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation_core build --build-base /home/pioneer-ii/pioneer_ws/build/navigation_core/build install --record /home/pioneer-ii/pioneer_ws/build/navigation_core/install.log --install-scripts $base/lib/navigation_core --single-version-externally-managed

@@ -1,0 +1,24 @@
+[6.211s] Invoking command in '/home/pioneer-ii/pioneer_ws/src/rsl_imu': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rsl_imu/prefix_override:/home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_imu build --build-base /home/pioneer-ii/pioneer_ws/build/rsl_imu/build install --record /home/pioneer-ii/pioneer_ws/build/rsl_imu/install.log --install-scripts $base/lib/rsl_imu --single-version-externally-managed
+[6.722s] running egg_info
+[6.724s] writing ../../build/rsl_imu/rsl_imu.egg-info/PKG-INFO
+[6.725s] writing dependency_links to ../../build/rsl_imu/rsl_imu.egg-info/dependency_links.txt
+[6.732s] writing entry points to ../../build/rsl_imu/rsl_imu.egg-info/entry_points.txt
+[6.732s] writing requirements to ../../build/rsl_imu/rsl_imu.egg-info/requires.txt
+[6.732s] writing top-level names to ../../build/rsl_imu/rsl_imu.egg-info/top_level.txt
+[6.797s] reading manifest file '../../build/rsl_imu/rsl_imu.egg-info/SOURCES.txt'
+[6.799s] writing manifest file '../../build/rsl_imu/rsl_imu.egg-info/SOURCES.txt'
+[6.800s] running build
+[6.800s] running build_py
+[6.801s] copying rsl_imu/imu_node.py -> /home/pioneer-ii/pioneer_ws/build/rsl_imu/build/lib/rsl_imu
+[6.802s] running install
+[6.805s] running install_lib
+[6.808s] copying /home/pioneer-ii/pioneer_ws/build/rsl_imu/build/lib/rsl_imu/imu_node.py -> /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu
+[6.809s] byte-compiling /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu/imu_node.py to imu_node.cpython-38.pyc
+[6.815s] running install_data
+[6.817s] running install_egg_info
+[6.821s] removing '/home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu-0.0.0-py3.8.egg-info' (and everything under it)
+[6.822s] Copying ../../build/rsl_imu/rsl_imu.egg-info to /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages/rsl_imu-0.0.0-py3.8.egg-info
+[6.824s] running install_scripts
+[6.875s] Installing run_imu script to /home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/rsl_imu
+[6.876s] writing list of installed files to '/home/pioneer-ii/pioneer_ws/build/rsl_imu/install.log'
+[8.085s] Invoked command in '/home/pioneer-ii/pioneer_ws/src/rsl_imu' returned '0': PYTHONPATH=/home/pioneer-ii/pioneer_ws/build/rsl_imu/prefix_override:/home/pioneer-ii/pioneer_ws/install/rsl_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_imu build --build-base /home/pioneer-ii/pioneer_ws/build/rsl_imu/build install --record /home/pioneer-ii/pioneer_ws/build/rsl_imu/install.log --install-scripts $base/lib/rsl_imu --single-version-externally-managed

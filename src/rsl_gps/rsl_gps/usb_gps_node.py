@@ -52,7 +52,7 @@ gps.send_command(b"PMTK220,1000")
 # Main loop runs forever printing the location, etc. every second.
 last_print = time.monotonic()
 
-dummyGPS = True;
+dummyGPS = False;
 dummyLoc = [37.35230665171848, -121.94150740314477]
 
 
@@ -74,7 +74,7 @@ class readGPS(Node):
         if lat is not None and lon is not None:
             msg.latitude = lat
             msg.longitude = lon
-            msg.altitude = gps.altitude_m
+            msg.altitude = 0.0
             msg.status.status = gps.fix_quality
             msg.status.service = gps.satellites
             msg.header.frame_id = 'primary gps'

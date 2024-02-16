@@ -9,6 +9,7 @@ setup.py
 ../../build/navigation_core/navigation_core.egg-info/top_level.txt
 ../../build/navigation_core/navigation_core.egg-info/zip-safe
 navigation_core/__init__.py
+navigation_core/test_position.py
 navigation_core/waypoint_controller.py
 resource/navigation_core
 test/test_copyright.py

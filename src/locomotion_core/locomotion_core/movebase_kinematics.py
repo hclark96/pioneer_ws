@@ -13,12 +13,12 @@ class GetMoveCmds(Node):
         # Create a subscription to the 'cmd_vel' topic with a callback function 
         self.subscription = self.create_subscription(
             Twist,
-            'robot1/cmd_vel',
+            'robot2/cmd_vel',
             self.move_cmd_callback, 5)
         self.subscription  
 
         # Create a publisher for the left & right wheel's control signal on the their topics
-        self.pub_move = self.create_publisher(Int32MultiArray, 'robot1/ch_vals', 5)
+        self.pub_move = self.create_publisher(Int32MultiArray, 'robot2/ch_vals', 5)
 
         self.lx = 0.0
         self.az = 0.0
